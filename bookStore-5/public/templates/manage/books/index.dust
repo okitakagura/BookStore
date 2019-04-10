@@ -1,0 +1,32 @@
+{>"layouts/manage" /}
+
+{<title}
+	书目列表
+{/title}
+
+{<body}
+	<h2>Book List</h2>
+	<a class="button radius small" href="/manage/books/add">添加书籍</a>
+	<table>
+		<thead>
+			<tr>
+				<th width="200">ID</th>
+				<th width="200">Title</th>
+				<th width="200">Category</th>
+				<th></th>
+				<th></th>
+			</tr>
+		</thead>
+		<tbody>
+			{#books}
+			<tr>
+				<td>{._id}</td>
+				<td>{.title}</td>
+				<td>{.category}</td>
+				<td><a class="button tiny center" href="/manage/books/edit/{._id}">Edit</a></td>
+				<td><a class="button tiny alert center removeBook" data-id="{._id}" href="#">Delete</a></td>
+			</tr>
+			{/books}
+		</tbody>
+	</table>
+{/body}

@@ -1,0 +1,183 @@
+{>"layouts/master" /}
+
+{<title}
+	主页
+{/title}
+
+{<body}
+<div class="row">
+    <div class="large-12 columns">
+        <h2>Three-Taste</h2>
+    </div>
+</div>
+
+<div class="news-image-gallery-container">
+    <div class="row">
+        <div class="small-12 medium-12 large-8 columns">
+            <img src="https://placehold.it/2000x750">
+        </div>
+        <div class="small-12 medium-12 large-4 columns">
+            <div class="rounded-social-buttons">
+                <a class="social-button facebook" href="#"></a>
+                <a class="social-button twitter" href="#"></a>
+                <a class="social-button linkedin" href="#"></a>
+                <a class="social-button google-plus" href="#"></a>
+            </div>
+            <div class="clearfix"></div>
+            <h4 class="news-image-gallery-title">Extraterrestrial culture: How we express ourselves through space exploration</h4>
+            <p>
+                This is not a new thing. Terrestrial cultures have (always) had a degree of extraterrestrial-ity in them. Cultural astronomers and archeoastronomers...
+                <a href="#" class="read-more">
+                    Read More
+                </a>
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="small-text-center">
+    <h2>Our Newest Books</h2>
+    <hr>
+</div>
+<form>
+    <div class="row">
+        <div class="large-3 large-offset-9 columns">
+            <div class="input-group">
+                <input type="search" class="input-group-field">
+                <div class="input-group-button">
+                    <input type="submit" class="button" value="Search">
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+<div class="row">
+    <div class="large-12 columns">
+        <div class="row">
+            {#books}
+            <div class="small-6 medium-3 large-3 columns book">
+                <img src="/img/{.cover}">
+                <div>
+                    <ul class="pricing-table">
+                        <li class="title">{.title}</li>
+                        <li class="price">${.price}</li>
+                        <li class="description">{.truncText}</li>
+                        <li class="cta-button">
+                            <a href="/books/details/{._id}" class="button small">Book detail</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            {/books}
+        </div>
+    </div>
+</div>
+
+<div class="small-text-center">
+    <h2>Some Other Neat Products</h2>
+    <hr>
+</div>
+<div class="product-card">
+    <div class="product-card-thumbnail">
+        <a href="#"><img src="https://placehold.it/180x180"/></a>
+    </div>
+    <h2 class="product-card-title"><a href="#">Product Name</a></h2>
+    <span class="product-card-desc">Product Description</span>
+    <span class="product-card-price">$9.99</span><span class="product-card-sale">$12.99</span>
+</div>
+
+<hr>
+<div class="row">
+    <div class="medium-4 columns">
+        <h4>Top Products</h4>
+        <div class="media-object">
+            <div class="media-object-section">
+                <img class="thumbnail" src="https://placehold.it/100x100">
+            </div>
+            <div class="media-object-section">
+                <h5>Nunc Eu Ullamcorper Orci</h5>
+                <p>Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque.</p>
+            </div>
+        </div>
+        <div class="media-object">
+            <div class="media-object-section">
+                <img class="thumbnail" src="https://placehold.it/100x100">
+            </div>
+            <div class="media-object-section">
+                <h5>Nunc Eu Ullamcorper Orci</h5>
+                <p>Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque.</p>
+            </div>
+        </div>
+        <div class="media-object">
+            <div class="media-object-section">
+                <img class="thumbnail" src="https://placehold.it/100x100">
+            </div>
+            <div class="media-object-section">
+                <h5>Nunc Eu Ullamcorper Orci</h5>
+                <p>Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque.</p>
+            </div>
+        </div>
+    </div>
+    <div class="medium-4 columns">
+        <h4>Top Products</h4>
+        <div class="media-object">
+            <div class="media-object-section">
+                <img class="thumbnail" src="https://placehold.it/100x100">
+            </div>
+            <div class="media-object-section">
+                <h5>Nunc Eu Ullamcorper Orci</h5>
+                <p>Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque.</p>
+            </div>
+        </div>
+        <div class="media-object">
+            <div class="media-object-section">
+                <img class="thumbnail" src="https://placehold.it/100x100">
+            </div>
+            <div class="media-object-section">
+                <h5>Nunc Eu Ullamcorper Orci</h5>
+                <p>Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque.</p>
+            </div>
+        </div>
+        <div class="media-object">
+            <div class="media-object-section">
+                <img class="thumbnail" src="https://placehold.it/100x100">
+            </div>
+            <div class="media-object-section">
+                <h5>Nunc Eu Ullamcorper Orci</h5>
+                <p>Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque.</p>
+            </div>
+        </div>
+    </div>
+    <div class="medium-4 columns">
+        <h4>Top Products</h4>
+        <div class="media-object">
+            <div class="media-object-section">
+                <img class="thumbnail" src="https://placehold.it/100x100">
+            </div>
+            <div class="media-object-section">
+                <h5>Nunc Eu Ullamcorper Orci</h5>
+                <p>Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque.</p>
+            </div>
+        </div>
+        <div class="media-object">
+            <div class="media-object-section">
+                <img class="thumbnail" src="https://placehold.it/100x100">
+            </div>
+            <div class="media-object-section">
+                <h5>Nunc Eu Ullamcorper Orci</h5>
+                <p>Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque.</p>
+            </div>
+        </div>
+        <div class="media-object">
+            <div class="media-object-section">
+                <img class="thumbnail" src="https://placehold.it/100x100">
+            </div>
+            <div class="media-object-section">
+                <h5>Nunc Eu Ullamcorper Orci</h5>
+                <p>Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+{/body}

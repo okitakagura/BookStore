@@ -1,0 +1,11 @@
+{>"layouts/manage" /}
+
+{<title}
+	后台管理系统
+{/title}
+
+{<body}
+	<h2 class="about-heading">Manage</h2>
+	<div class="sepreater"></div>
+	<p class="about-des">Backstage management</p>
+{/body}

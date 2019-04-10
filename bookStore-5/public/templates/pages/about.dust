@@ -1,0 +1,15 @@
+{>"layouts/master" /}
+
+{<title}
+	关于
+{/title}
+
+{<body}
+	<div class="row">
+		<div class="large-12 columns">
+			<h2 class="about-heading">About us</h2>
+			<div class="sepreater"></div>
+			<p class="about-des">三味书屋</p>
+		</div>
+	</div>
+{/body}
