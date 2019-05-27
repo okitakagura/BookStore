@@ -14,7 +14,7 @@
 <div class="news-image-gallery-container">
     <div class="row">
         <div class="small-12 medium-12 large-8 columns">
-            <img src="https://placehold.it/2000x750">
+            <img src="../../img/picture.jpg">
         </div>
         <div class="small-12 medium-12 large-4 columns">
             <div class="rounded-social-buttons">
@@ -36,7 +36,7 @@
 </div>
 
 <div class="small-text-center">
-    <h2>Our Newest Books</h2>
+    <h2>Our New Books</h2>
     <hr>
 </div>
 <form>
@@ -74,106 +74,128 @@
 </div>
 
 <div class="small-text-center">
-    <h2>Some Other Neat Products</h2>
+    <h2>Our On-sale Books</h2>
     <hr>
 </div>
-<div class="product-card">
+<div class="row">
+<div class="product-card medium-3 columns">
     <div class="product-card-thumbnail">
-        <a href="#"><img src="https://placehold.it/180x180"/></a>
+        <a href="#"><img src="../../img/wuhezhizhong_m.jpg"/></a>
     </div>
     <h2 class="product-card-title"><a href="#">Product Name</a></h2>
     <span class="product-card-desc">Product Description</span>
     <span class="product-card-price">$9.99</span><span class="product-card-sale">$12.99</span>
 </div>
+<div class="product-card medium-3 columns">
+    <div class="product-card-thumbnail">
+        <a href="#"><img src="../../img/yueliang_m.jpg"/></a>
+    </div>
+    <h2 class="product-card-title"><a href="#">Product Name</a></h2>
+    <span class="product-card-desc">Product Description</span>
+    <span class="product-card-price">$9.99</span><span class="product-card-sale">$12.99</span>
+</div>
+<div class="product-card medium-3 columns">
+    <div class="product-card-thumbnail">
+        <a href="#"><img src="../../img/xiaoshenke_m.jpg"/></a>
+    </div>
+    <h2 class="product-card-title"><a href="#">Product Name</a></h2>
+    <span class="product-card-desc">Product Description</span>
+    <span class="product-card-price">$9.99</span><span class="product-card-sale">$12.99</span>
+</div>
+</div>
 
-<hr>
+
+<div class="small-text-center">
+    <h2>Our On-sale Books</h2>
+    <hr>
+</div>
 <div class="row">
     <div class="medium-4 columns">
-        <h4>Top Products</h4>
+        <h4>Novel Top Products</h4>
         <div class="media-object">
             <div class="media-object-section">
-                <img class="thumbnail" src="https://placehold.it/100x100">
+                <img class="thumbnail" src="../../img/dongfang_s.jpg">
             </div>
             <div class="media-object-section">
-                <h5>Nunc Eu Ullamcorper Orci</h5>
+                <h5>东方快车谋杀案</h5>
                 <p>Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque.</p>
             </div>
         </div>
         <div class="media-object">
             <div class="media-object-section">
-                <img class="thumbnail" src="https://placehold.it/100x100">
+                <img class="thumbnail" src="../../img/huxiao_s.jpg">
             </div>
             <div class="media-object-section">
-                <h5>Nunc Eu Ullamcorper Orci</h5>
+                <h5>呼啸山庄</h5>
                 <p>Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque.</p>
             </div>
         </div>
         <div class="media-object">
             <div class="media-object-section">
-                <img class="thumbnail" src="https://placehold.it/100x100">
+                <img class="thumbnail" src="../../img/lubinxun_s.jpg">
             </div>
             <div class="media-object-section">
-                <h5>Nunc Eu Ullamcorper Orci</h5>
-                <p>Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque.</p>
-            </div>
-        </div>
-    </div>
-    <div class="medium-4 columns">
-        <h4>Top Products</h4>
-        <div class="media-object">
-            <div class="media-object-section">
-                <img class="thumbnail" src="https://placehold.it/100x100">
-            </div>
-            <div class="media-object-section">
-                <h5>Nunc Eu Ullamcorper Orci</h5>
-                <p>Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque.</p>
-            </div>
-        </div>
-        <div class="media-object">
-            <div class="media-object-section">
-                <img class="thumbnail" src="https://placehold.it/100x100">
-            </div>
-            <div class="media-object-section">
-                <h5>Nunc Eu Ullamcorper Orci</h5>
-                <p>Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque.</p>
-            </div>
-        </div>
-        <div class="media-object">
-            <div class="media-object-section">
-                <img class="thumbnail" src="https://placehold.it/100x100">
-            </div>
-            <div class="media-object-section">
-                <h5>Nunc Eu Ullamcorper Orci</h5>
+                <h5>鲁滨逊漂流记</h5>
                 <p>Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque.</p>
             </div>
         </div>
     </div>
     <div class="medium-4 columns">
-        <h4>Top Products</h4>
+        <h4>Biography Top Products</h4>
         <div class="media-object">
             <div class="media-object-section">
-                <img class="thumbnail" src="https://placehold.it/100x100">
+                <img class="thumbnail" src="../../img/qiaobusi_s.jpg">
             </div>
             <div class="media-object-section">
-                <h5>Nunc Eu Ullamcorper Orci</h5>
+                <h5>乔布斯传</h5>
                 <p>Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque.</p>
             </div>
         </div>
         <div class="media-object">
             <div class="media-object-section">
-                <img class="thumbnail" src="https://placehold.it/100x100">
+                <img class="thumbnail" src="../../img/zhouenlai_s.jpg">
             </div>
             <div class="media-object-section">
-                <h5>Nunc Eu Ullamcorper Orci</h5>
+                <h5>周恩来传</h5>
                 <p>Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque.</p>
             </div>
         </div>
         <div class="media-object">
             <div class="media-object-section">
-                <img class="thumbnail" src="https://placehold.it/100x100">
+                <img class="thumbnail" src="../../img/jiangzeming_s.jpg">
             </div>
             <div class="media-object-section">
-                <h5>Nunc Eu Ullamcorper Orci</h5>
+                <h5>江泽民传</h5>
+                <p>Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque.</p>
+            </div>
+        </div>
+    </div>
+    <div class="medium-4 columns">
+        <h4>Social Sciences Top Products</h4>
+        <div class="media-object">
+            <div class="media-object-section">
+                <img class="thumbnail" src="../../img/sufei_s.jpg">
+            </div>
+            <div class="media-object-section">
+                <h5>苏菲的世界</h5>
+                <p>Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque.</p>
+            </div>
+        </div>
+        <div class="media-object">
+            <div class="media-object-section">
+                <img class="thumbnail" src="../../img/guduliujiang_s.jpg">
+            </div>
+            <div class="media-object-section">
+                <h5>孤独六讲</h5>
+                <p>Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque.</p>
+            </div>
+        </div>
+        <div class="media-object">
+            <div class="media-object-section">
+                <img class="thumbnail" src="../../img/lixiangguo_s.jpg">
+            </div>
+            <div class="media-object-section">
+                <h5>理想国</h5>
                 <p>Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque.</p>
             </div>
         </div>
