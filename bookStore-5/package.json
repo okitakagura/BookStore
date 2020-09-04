@@ -21,7 +21,7 @@
     "kraken-js": "^1.0.3",
     "less": "^1.7.5",
     "localizr": "^0.1.6",
-    "mongodb": "^2.0.36",
+    "mongodb": "^3.1.13",
     "mongoose": "^4.0.6",
     "requirejs": "^2.1.19"
   },
